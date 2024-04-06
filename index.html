@@ -31,7 +31,7 @@
   <body class="font-poppins">
     <header class="container mx-auto">
       <nav>
-        <div class="navbar bg-base-100 my-[59px]">
+        <div class="navbar bg-base-100 my-5 md:my-[59px]">
           <div class="navbar-start">
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -54,24 +54,52 @@
                 tabindex="0"
                 class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
-                <li><a>Item 1</a></li>
+                <li><a>Home</a></li>
                 <li>
-                  <a>Parent</a>
-                  <ul class="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
-                  </ul>
+                  <details>
+                    <summary>Services</summary>
+                    <ul class="p-2">
+                      <li><a>Service 1</a></li>
+                      <li><a>Service 2</a></li>
+                    </ul>
+                  </details>
                 </li>
-                <li><a>Item 3</a></li>
+                <li>
+                  <details>
+                    <summary>Cases</summary>
+                    <ul class="p-2">
+                      <li><a>Case 1</a></li>
+                      <li><a>Case 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <details>
+                    <summary>Blog</summary>
+                    <ul class="p-2">
+                      <li><a>Blog 1</a></li>
+                      <li><a>Blog 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <details>
+                    <summary>Contact Us</summary>
+                    <ul class="p-2">
+                      <li><a>Contact 1</a></li>
+                      <li><a>Contact 2</a></li>
+                    </ul>
+                  </details>
+                </li>
               </ul>
             </div>
             <img
               src="./images/Group 1.png"
               alt="title logo"
-              class="h-11 w-11"
+              class="h-7 w-7 md:h-11 md:w-11"
             />
             <a
-              class="btn btn-ghost text-4xl font-eb-garamond font-extrabold text-[#414040]"
+              class="btn btn-ghost text-2xl md:text-4xl font-eb-garamond font-extrabold text-[#414040]"
               >Justice</a
             >
           </div>
@@ -118,7 +146,7 @@
           </div>
           <div class="navbar-end">
             <a
-              class="btn bg-[#B68C5A] text-white px-7 py-4 h-auto text-lg font-semibold"
+              class="btn bg-[#B68C5A] text-white md:px-7 md:py-4 h-auto md:text-lg font-semibold"
               >Free Consultation</a
             >
           </div>
