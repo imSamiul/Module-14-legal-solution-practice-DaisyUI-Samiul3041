@@ -545,7 +545,7 @@
           the majority have suffered alteration in some form, by injected
           humour.
         </p>
-        <div class="flex md:flex-row flex-col px-4">
+        <div class="flex md:flex-row flex-col px-4 gap-8">
           <div class="flex-1 grid grid-cols-2 gap-2">
             <div
               class="bg-[#F3F3F3] flex justify-center flex-col items-center p-4 md:p-16 gap-4 border border-[#CFCFCF] text-center rounded-lg"
@@ -603,12 +603,31 @@
               </p>
             </div>
           </div>
-          <div class="flex-1">
+          <div class="flex-1 space-y-8">
             <input
               type="text"
-              placeholder="Type here"
-              class="input w-full max-w-xs"
+              placeholder="Your Name"
+              class="input w-full bg-[#F3F3F3] p-8"
             />
+            <input
+              type="text"
+              placeholder="Your Email"
+              class="input w-full bg-[#F3F3F3] p-8"
+            />
+            <input
+              type="text"
+              placeholder="Subject"
+              class="input w-full bg-[#F3F3F3] p-8"
+            />
+            <textarea
+              class="textarea w-full bg-[#F3F3F3] p-8"
+              placeholder="Your Message"
+            ></textarea>
+            <button
+              class="btn w-full bg-[#B68C5A] text-white py-5 h-auto text-xl font-semibold"
+            >
+              Button
+            </button>
           </div>
         </div>
       </div>
